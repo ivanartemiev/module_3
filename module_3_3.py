@@ -1,6 +1,7 @@
 def print_params(a = 1, b = 'строка', c = True):
     print(a, b, c)
 print_params()
+print_params(a = 3, b ='String')
 print_params(b = 25)
 print_params(c = [11, 22, 33])
 values_list = ['Urban', 66, False]
